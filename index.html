@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Code Review 03</title>
+	<link rel="stylesheet" type="text/css" href="CSS/codereview.css">
+</head>
+<body>
+	<div id="container">
+	
+		<header>
+				<img id="img1" src="img/logo.png">
+			
+				<img id="img2" src="img/banner.png">
+		</header>
+		
+		<nav>
+			<ul id="list1">
+				<li class="li1">Home</li>
+				<li class="li1" id="link"> <a href="team.html" target="_blank">Team</li></a>
+			</ul>	
+		</nav>
+
+		<div id="main">
+			<div>
+				<img id="traffic" src="img/traffic-332857_1920.jpg">
+				<div class="top-left">
+				 	Car Insurance
+				</div>
+
+				
+			</div>
+			<div class="text_block">
+					Great coverage begins<br> with a custom quote<br>
+				<div id="form">
+					<div id="form1">
+						<div>
+							Name: 
+							<input id="name" type="text" value="" class="area"><br>
+						</div>
+
+						<div>
+							Age: 
+							<input id="age" type="number" value="" class="area"><br>
+						</div>
+					</div>
+
+					<div id="form2">
+						<div>
+							Horsepower: <input id="power" type="text"  class="area"><br>
+						</div>
+	
+		  				<div id="myDropdown" class="area">
+		  					<div>
+		  						Country:
+		  					</div>
+		  					<div>
+								<select id="dropcalc">
+									<option value="0">Austria</option>
+									<option value="1">Hungary</option>
+									<option value="2">Greece</option>
+								</select>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<button  onclick="calculateInsurance()" id="calc" >Calculate</button>
+				<p id="result">
+					
+				</p>
+			</div>
+			<div id="bottom_text">
+				<span id="text">Un-complicating car coverage</span><br>Understanding your coverage options shouldn't be so hard.<br>We'll guide you through available coverage types,<br>starting with who and what is covered.
+			</div>
+			
+		</div>
+
+		<div id="bottom_part">
+			<div class="bottom_table">
+				<h3 class="headline"> What comes standard</h3><span>The coverage you need</span>
+
+				<ul class="bottom_list1">
+					<li class="li3">Bodily Injury Liability</li>
+					<li class="li3">Property Damage</li>
+					<li class="li3">Medical Payments</li>
+					<h4>Benefits</h4>
+					<span>12-month rate guarantee|24/7 customer<br> service|Lifetime Repair Guarantee</span>
+			</div>
+
+			<div class="bottom_table">
+				<h3 class="headline"> Add-on protection & coverage</h3><span>For more peace of mind</span>
+
+				<ul class="bottom_list1">
+					<li class="li4">Better Car Replacement</li>
+					<li class="li4">Towering & Labor</li>
+					<li class="li4">Rental Car Coverage</li>
+					<h4>Earned Benefits</h4>
+					<p>Accident Forgiveness|New Car<br> Replacement</p>
+			</div>
+		</div>
+
+		<footer>
+			<ul id="list2">
+				<li class="li2">Home</li>
+				<li class="li2">Team</li>	
+			</ul>
+
+			<img id="img_footer" src="img/logo-inv.png">
+
+			<span>Matthias Bruckbeck - CodeFactory2019</span>
+
+		</footer>
+	</div>	
+<script type="text/javascript" src="JavaScript\codereview.js"></script>
+</body>
+</html>
